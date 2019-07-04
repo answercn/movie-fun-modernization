@@ -6,6 +6,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/movies?useSSL=false
     username: root
+    password: "!qaZ2wsX"
     tomcat:
       max-active: 4
       max-idle: 4
@@ -21,6 +22,6 @@ logging.level:
   org.superbiz.moviefun: DEBUG
 
 s3:
-  accessKey: <access key id>
-  secretKey: <secret access key>
-  bucketName: <name of the bucket>
+  accessKey: AKIAVT7FZ27L7BM557J6
+  secretKey: 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
+  bucketName: hui5.wang.dhc.com.cn
